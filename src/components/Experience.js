@@ -11,7 +11,7 @@ const Experience = () => {
                     <div className="row p-2">
                         {element.list.map((item) => (
                             <div
-                                className="col-3 card text-14 me-3"
+                                className="col-6 col-md-3 card text-14"
                                 key={item.name}
                             >
                                 <img
